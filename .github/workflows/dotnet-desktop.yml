@@ -65,8 +65,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        fetch-depth: 0
-        node-vwesion: v0.0.1-alpha
+        fetch-tags: v0.0.1-alpha
 
 
     # Install the .NET Core workload
